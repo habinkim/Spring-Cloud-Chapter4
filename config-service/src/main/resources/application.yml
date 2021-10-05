@@ -1,0 +1,27 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-service
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        git:
+      #          uri: file:///Users/habin/IdeaProjects/Spring Cloud Study/4. Config Service/Git Local Repository
+          uri: https://github.com/habinkim/Spring-Cloud-Config
+        native:
+          search-locations: file:///Users/habin/IdeaProjects/Spring Cloud Study/Native File Repository
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, busrefresh

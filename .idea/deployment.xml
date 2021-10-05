@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="BPNS_RHEL">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/config-service/src/main" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="HABIN_HOME">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/config-service/src/main" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

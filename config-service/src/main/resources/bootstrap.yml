@@ -1,0 +1,6 @@
+encrypt:
+  key-store:
+    location: file://${user.home}/IdeaProjects/Spring Cloud Study/keystore/apiEncryptionKey.jks
+    password: test1234
+    alias: apiEncryptionKey
+#  key: abcdefghujklmnopqrstuvwxyz0123456789ππ
